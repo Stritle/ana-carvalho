@@ -1,0 +1,30 @@
+.livroComponent {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    margin-top: 3vh;
+    height: 70%;
+    max-width: 100%;
+    border: 1px solid rgb(173, 173, 173);
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+  a {
+    background-color: black;
+    border-radius: 15px 0 15px 0;
+    padding: 0.3rem 4rem;
+    color: aliceblue;
+    transition: 0.5s;
+    &:hover {
+      background-color: rgb(246, 232, 232);
+      border-radius: 0 15px 0 15px;
+      padding: 0.3rem 4rem;
+      color: black;
+      border: 1px solid black;
+    }
+  }
+}

@@ -1,0 +1,136 @@
+.header {
+  width: 100vw;
+  height: 18vh;
+  position: fixed;
+  top: 0;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+.header .logo {
+  width: 40%;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+}
+.header .logo h1 {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.header .navbar {
+  width: 60%;
+  align-items: center;
+  display: flex;
+}
+.header .navbar ul {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header .navbar ul li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+.header .navbar ul li a {
+  color: black;
+  transition: 0.5s;
+}
+.header .navbar ul li a:hover {
+  color: rgb(128, 128, 128);
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/mainImg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.livros {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.livros h1 {
+  font-size: 2.5rem;
+}
+.livros .livros-container {
+  width: 75%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(62, 71, 70);
+}
+
+.sobre {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sobre h1 {
+  font-size: 2.5rem;
+}
+.sobre .biografiaContainer {
+  width: 50%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(62, 71, 70);
+  display: flex;
+  flex-direction: row;
+}
+.sobre .biografiaContainer img {
+  margin-top: 3vh;
+  height: 80%;
+}
+.sobre .biografiaContainer .biografiaContent {
+  margin-top: 3vh;
+  height: 90%;
+  display: flex;
+  align-items: center;
+}
+.sobre .biografiaContainer .biografiaContent p {
+  margin-left: 2rem;
+  width: 90%;
+  font-size: 1.1rem;
+  color: black;
+}
+
+.livroComponent {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.livroComponent img {
+  margin-top: 3vh;
+  height: 70%;
+  max-width: 100%;
+  border: 1px solid rgb(173, 173, 173);
+}
+.livroComponent h1 {
+  font-size: 1.3rem;
+}
+.livroComponent a {
+  background-color: black;
+  border-radius: 15px 0 15px 0;
+  padding: 0.3rem 4rem;
+  color: aliceblue;
+  transition: 0.5s;
+}
+.livroComponent a:hover {
+  background-color: rgb(246, 232, 232);
+  border-radius: 0 15px 0 15px;
+  padding: 0.3rem 4rem;
+  color: black;
+  border: 1px solid black;
+}/*# sourceMappingURL=App.css.map */
