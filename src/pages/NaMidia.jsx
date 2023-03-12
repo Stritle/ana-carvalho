@@ -7,16 +7,16 @@ function NaMidia() {
             <h1>NA MÍDIA</h1>
             <div className="naMidiaContainer">
                 <Comentario textComent="Sou um depoimento. Clique aqui para editar e adicionar um texto sobre você e seus serviços. Permita que seus clientes o avaliem e digam aos amigos o quanto você é bom."
-                    nameComent="GABRIEL CARDOSO"
-                    sourceComent="DIÁRIO DE CAMPINAS" />
+                    nameComent="NUNO ALVES"
+                    sourceComent="JORNAL DE NOTICIAS" />
 
                 <Comentario textComent="Sou um depoimento. Clique aqui para editar e adicionar um texto sobre você e seus serviços. Permita que seus clientes o avaliem e digam aos amigos o quanto você é bom."
                     nameComent="GABRIEL CARDOSO"
-                    sourceComent="DIÁRIO DE CAMPINAS" />
+                    sourceComent="JORNAL DE NOTICIAS" />
 
                 <Comentario textComent="Sou um depoimento. Clique aqui para editar e adicionar um texto sobre você e seus serviços. Permita que seus clientes o avaliem e digam aos amigos o quanto você é bom."
-                    nameComent="GABRIEL CARDOSO"
-                    sourceComent="DIÁRIO DE CAMPINAS" />
+                    nameComent="JORGE SILVA"
+                    sourceComent="JORNAL DE NOTICIAS" />
             </div>
         </div>
     )
