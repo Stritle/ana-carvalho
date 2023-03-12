@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  width: 100vw;
+}
 @import "./style/navbar", "./style/main", "./style/livros", "./style/naMidia",
   "./style/sobre", "./style/eventos", "./style/contacto",
-  "./style/livroComponent";
+  "./style/livroComponent", "./style/eventos", "./style/contacto",
+  "./style/comentario", "./style/eventoComponent", "./style/footer";

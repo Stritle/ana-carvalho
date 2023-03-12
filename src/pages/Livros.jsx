@@ -8,7 +8,7 @@ import OdioMorte from '../images/OdioMorte.webp'
 function Livros() {
     return (
         <div className='livros' id='livros'>
-            <h1>MAIS LIVROS DE ANA DE CARVALHO</h1>
+            <h1>LIVROS DE ANA DE CARVALHO</h1>
             <div className='livros-container'>
                 <Livro source={NicaJoaninha} title="Nicajoaninha" linkCompra="google.pt" />
                 <Livro source={DestinoAssimQuis} title="O Destino Assim o Quis" linkCompra="google.pt" />

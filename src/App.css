@@ -1,10 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  width: 100vw;
+}
+
 .header {
   width: 100vw;
   height: 18vh;
   position: fixed;
   top: 0;
   display: flex;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(243, 243, 243);
+  background-image: url("./images/paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .header .logo {
   width: 40%;
@@ -13,7 +26,7 @@
   justify-content: end;
 }
 .header .logo h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   font-weight: 800;
 }
 .header .navbar {
@@ -26,6 +39,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 5px;
+  margin-left: 25px;
 }
 .header .navbar ul li {
   list-style: none;
@@ -33,14 +48,15 @@
 }
 .header .navbar ul li a {
   color: black;
-  transition: 0.5s;
+  font-weight: 800;
+  transition: 0.3s;
 }
 .header .navbar ul li a:hover {
-  color: rgb(128, 128, 128);
+  color: rgb(180, 23, 23);
 }
 
 .main {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-image: url("./images/mainImg.jpg");
   background-repeat: no-repeat;
@@ -55,9 +71,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("./images/paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.livros h1 {
-  font-size: 2.5rem;
+.livros > h1 {
+  font-size: 2.2rem;
 }
 .livros .livros-container {
   width: 75%;
@@ -67,6 +87,27 @@
   border-top: 1px solid rgb(62, 71, 70);
 }
 
+.naMidia {
+  width: 100vw;
+  height: 80vh;
+  background-color: rgb(141, 27, 27);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.naMidia > h1 {
+  font-size: 2.2rem;
+  color: white;
+}
+.naMidia .naMidiaContainer {
+  width: 60%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+
 .sobre {
   width: 100vw;
   height: 100vh;
@@ -74,9 +115,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("./images/paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .sobre h1 {
-  font-size: 2.5rem;
+  font-size: 2.2rem;
 }
 .sobre .biografiaContainer {
   width: 50%;
@@ -104,6 +149,57 @@
   color: black;
 }
 
+.eventos {
+  width: 100vw;
+  min-height: 80vh;
+  background-color: rgb(141, 27, 27);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.eventos > h1 {
+  font-size: 2.2rem;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  margin-inline: 25vw;
+}
+.eventos > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.eventos > div .eventosContainer {
+  width: 60%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacto h1 {
+  font-size: 2.2rem;
+}
+.contacto .contactoContainer {
+  width: 60%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(62, 71, 70);
+}
+
 .livroComponent {
   width: 30%;
   height: 100%;
@@ -118,19 +214,185 @@
   border: 1px solid rgb(173, 173, 173);
 }
 .livroComponent h1 {
+  margin-top: 20px;
   font-size: 1.3rem;
+  color: rgb(19, 19, 19);
 }
 .livroComponent a {
-  background-color: black;
+  margin-top: 20px;
+  background-color: rgb(141, 27, 27);
   border-radius: 15px 0 15px 0;
   padding: 0.3rem 4rem;
   color: aliceblue;
-  transition: 0.5s;
+  transition: 0.7s;
 }
 .livroComponent a:hover {
-  background-color: rgb(246, 232, 232);
+  background-color: transparent;
   border-radius: 0 15px 0 15px;
   padding: 0.3rem 4rem;
-  color: black;
-  border: 1px solid black;
+  color: rgb(141, 27, 27);
+  border: 1px solid rgb(141, 27, 27);
+}
+
+.eventos {
+  width: 100vw;
+  min-height: 80vh;
+  background-color: rgb(141, 27, 27);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.eventos > h1 {
+  font-size: 2.2rem;
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  margin-inline: 25vw;
+}
+.eventos > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.eventos > div .eventosContainer {
+  width: 60%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contacto h1 {
+  font-size: 2.2rem;
+}
+.contacto .contactoContainer {
+  width: 60%;
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(62, 71, 70);
+}
+
+.comentarioContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  text-align: center;
+  color: white;
+}
+.comentarioContent .aspas {
+  height: 5rem;
+  width: 5rem;
+  background-image: url("./images/aspas.webp");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.comentarioContent .underLine {
+  margin: 25px 0;
+  border-bottom: 1px solid white;
+  width: 50%;
+}
+.comentarioContent h5 {
+  font-size: 1.1rem;
+}
+.comentarioContent h5 b {
+  font-weight: 700;
+}
+.comentarioContent h5 p {
+  font-weight: 100;
+  margin-top: -0.3rem;
+}
+
+.eventoContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.eventoContainer .eventoContent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  border-bottom: 0px solid white;
+  border-top: 1px solid rgb(109, 16, 16);
+  transition: 0.3s;
+}
+.eventoContainer .eventoContent:hover {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+.eventoContainer .eventoContent > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.eventoContainer .eventoContent > div h2 {
+  font-size: 2.5rem;
+}
+.eventoContainer .eventoContent > div div {
+  display: flex;
+  flex-direction: column;
+}
+.eventoContainer .eventoContent > div div small {
+  font-size: 0.7rem;
+  margin: 0 10px;
+}
+.eventoContainer .eventoContent > div h1 {
+  font-size: 2rem;
+}
+.eventoContainer .eventoContent > div h6 {
+  margin-left: 5px;
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+.eventoContainer .eventoContent .eventBtn a {
+  padding: 0.5rem 2rem;
+  background-color: rgb(253, 253, 248);
+  border-radius: 15px 0 15px 0;
+  color: rgb(141, 27, 27);
+  font-weight: 800;
+  transition: 0.3s;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.eventoContainer .eventoContent .eventBtn a:hover {
+  border: 1px solid white;
+  border-radius: 0 15px 0 15px;
+  background-color: transparent;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  height: 6vh;
+  background-color: rgb(109, 16, 16);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  color: white;
+}
+.footer p {
+  font-size: 0.7rem;
+  margin-right: 50px;
 }/*# sourceMappingURL=App.css.map */

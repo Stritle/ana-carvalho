@@ -1,0 +1,28 @@
+.eventos {
+  width: 100vw;
+  min-height: 80vh;
+  background-color: rgb(141, 27, 27);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  & > h1 {
+    font-size: 2.2rem;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin-inline: 25vw;
+  }
+  & > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .eventosContainer {
+      width: 60%;
+      height: 70%;
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

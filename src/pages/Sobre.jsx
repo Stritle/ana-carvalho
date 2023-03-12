@@ -1,9 +1,9 @@
 import React from 'react'
-import fotoAna from "../images/Ana.jpg"
+import fotoAna from "../images/Ana.webp"
 
 function Sobre() {
     return (
-        <div className='sobre' id="sobre"><h1>Biografia</h1>
+        <div className='sobre' id="sobre"><h1>BIOGRAFIA</h1>
             <div className='biografiaContainer'>
                 <img src={fotoAna}></img>
                 <div className='biografiaContent'>

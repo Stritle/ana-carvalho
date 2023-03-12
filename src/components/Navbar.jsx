@@ -7,7 +7,7 @@ function Navbar() {
             <div className='logo'><h1>Ana de Carvalho</h1></div>
             <div className='navbar'>
                 <ul>
-                    <li><Link smooth="true" to="#main">Pagina Inicial</Link></li>
+                    <li><Link smooth="true" to="#main">Inicio</Link></li>
                     <li><Link smooth="true" to="#livros"> Livros</Link></li>
                     <li><Link smooth="true" to="#naMidia">Na Mídia</Link></li>
                     <li><Link smooth="true" to="#sobre">Sobre</Link></li>

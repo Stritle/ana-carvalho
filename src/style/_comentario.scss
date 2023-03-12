@@ -1,0 +1,32 @@
+.comentarioContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  text-align: center;
+  color: white;
+  .aspas {
+    height: 5rem;
+    width: 5rem;
+    background-image: url("./images/aspas.webp");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .underLine {
+    margin: 25px 0;
+    border-bottom: 1px solid white;
+    width: 50%;
+  }
+  h5 {
+    font-size: 1.1rem;
+    b {
+      font-weight: 700;
+    }
+    p {
+      font-weight: 100;
+      margin-top: -0.3rem;
+    }
+  }
+}

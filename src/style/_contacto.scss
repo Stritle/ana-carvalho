@@ -1,0 +1,23 @@
+.contacto {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // background-color: rgb(243, 243, 243);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 2.2rem;
+  }
+  .contactoContainer {
+    width: 60%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(62, 71, 70);
+  }
+}

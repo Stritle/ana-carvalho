@@ -5,9 +5,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-image: url("./images/paper.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   .biografiaContainer {
     width: 50%;

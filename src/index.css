@@ -28,6 +28,7 @@ body {
   display: flex;
   min-width: 100vw;
   min-height: 100vh;
+  color: rgb(19, 19, 19);
 }
 
 h1 {
