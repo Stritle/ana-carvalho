@@ -10,10 +10,10 @@ function Livros() {
         <div className='livros' id='livros'>
             <h1>LIVROS DE ANA DE CARVALHO</h1>
             <div className='livros-container'>
-                <Livro source={NicaJoaninha} title="Nicajoaninha" linkCompra="google.pt" />
-                <Livro source={DestinoAssimQuis} title="O Destino Assim o Quis" linkCompra="google.pt" />
-                <Livro source={OdioMorte} title="Odio de Morte" linkCompra="google.pt" />
-                <Livro source={SeteDias} title="Sete Dias Sete Contos" linkCompra="google.pt" />
+                <Livro source={NicaJoaninha} title="Nicajoaninha" linkCompra="https://www.wook.pt/livro/nicajoaninha-ana-de-carvalho/19041423" />
+                <Livro source={DestinoAssimQuis} title="O Destino Assim o Quis" linkCompra="https://www.wook.pt/livro/o-destino-assim-o-quis-ana-de-carvalho/15869574" />
+                <Livro source={OdioMorte} title="Odio de Morte" linkCompra="https://www.wook.pt/livro/odio-de-morte-ana-de-carvalho/22801296" />
+                <Livro source={SeteDias} title="Sete Dias Sete Contos" linkCompra="https://www.wook.pt/livro/sete-dias-sete-contos-ana-de-carvalho/16591119" />
 
             </div>
         </div>
